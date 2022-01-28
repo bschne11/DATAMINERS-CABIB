@@ -1,0 +1,21 @@
+\begin{table}[H]
+\begin{tabular}{p{0.2\textwidth}p{0.2\textwidth}p{0.1\textwidth}p{0.4\textwidth}}
+    \toprule
+    \textbf{Hyperparameter} & \textbf{Description }  & \textbf{Final Value} & \textbf{Interpretation} \\
+    \midrule
+    colsample-bytree & Percentage of features used per tree & 0.5 & High values can lead to overfitting\\
+    \hline
+    learning rate & The learning rate corresponds to how quickly the error is corrected from each tree to the next and is a simple multiplier 0\<LR\≤1 & 0.08 & Chosen to prevent overfitting, usually a value between 0.05 and 0.3 is chosen\\
+    \hline
+    n-estimators  & Number of trees on which the prediction is calculated based on mean computation & 500 & 500 decision trees are used, which lies in the typical range of 100 to 1.000 trees and should be sufficient for generalizable prediction. The relatively small learning rate requires a certain amount of trees.\\
+    \hline
+    max_depth & Determines how deeply each tree is allowed to grow during any boosting round & 6 & A tree size of 6 is higher than the default of 3, meaning it  can grow more than default.\\
+    \hline
+    subsample & Percentage of samples used by tree & 1 & Low values can cause underfitting. The hyperparameter tuning increased the subsample value from 0.8 to 1 \\
+     \hline
+     gamma & Regularization parameter controlling the splitting of nodes (Minimum loss reduction required to make a further partition on a leaf node of the tree). & 0.6 & The larger gamma is, the more conservative the algorithm will be, that is why 0.6 was chosen\\
+ 
+    \bottomrule
+\end{tabular}
+\caption{\label{table:isabel}Isabel}
+\end{table}

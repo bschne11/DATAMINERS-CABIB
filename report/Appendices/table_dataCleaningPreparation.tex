@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering
+\begin{tabular}{p{0.2\textwidth}p{0.75\textwidth}}
+\toprule
+Step & Description \\
+\midrule
+Null and NaN values & These values mark missing data or erroneous data not presenting a valid number. This type of data has been removed.  \\
+Duplicate values & Duplicate values are based on duplicate rows, lead to redundant data and have been removed. \\
+Negative or non-contextual data & Negative values, for example negative duration times, have been removed. Further data anomalies are discoverd which potentially lead to context bias. These include, in particular, the shifted weather data. These were shifted by 5 hours so that minimum and maximum temperature data correspond to the typical course of the day.   \\
+Merge and interpolation & The weather data and divvy bike set data were merged. The merge of these two separate data sets and the eliminated data from previous steps resulted in data losses which were compensated by linear interpolation.  \\
+\bottomrule
+\end{tabular}
+\caption[Data cleaning and preparation steps]{Data cleaning and preparation steps}
+\label{tab:dataCleaningPreparation}
+\end{table} 
