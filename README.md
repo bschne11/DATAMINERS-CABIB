@@ -44,6 +44,6 @@ Please unzip the file <b>data.zip</b> to get access to the csv files. These are 
   |--> 02_descriptive_analytics.ipynb
   |--> 03_cluster_analysis.ipynb
   |--> 04_predictive_analysis.ipynb
---report
+--report_team_06.zip
 --report_team06.pdf
 </pre>
