@@ -39,11 +39,11 @@ Please unzip the file <b>data.zip</b> to get access to the csv files. These are 
 <pre>
 --data
   |--> *.csv
---notebooks
+--AA_Team_Code_06
   |--> 01_data_cleaning.ipynb
   |--> 02_descriptive_analytics.ipynb
   |--> 03_cluster_analysis.ipynb
   |--> 04_predictive_analysis.ipynb
---report_team_06.zip
---report_team06.pdf
+--Latex_Files_AA_Team_Report_06.zip
+--AA_Team_Report_06.pdf
 </pre>
